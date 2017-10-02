@@ -29,6 +29,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Accessibility
 # Alignments
 # Clearings
+# Structure and Layout
 # Header
 # Widgets
 # Content
@@ -710,6 +711,33 @@ a:hover, a:active {
 .site-content:after,
 .site-footer:after {
 	clear: both;
+}
+
+/*--------------------------------------------------------------
+# Structure and Layout
+--------------------------------------------------------------*/
+.wrap {
+	max-width: 100%;
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.content-area {
+	float: left;
+	margin: 0 -25% 0 0;
+	width: 100%;
+}
+.site-main {
+	margin: 0 25% 0 0;
+}
+.site-content .widget-area {
+	float: right;
+	overflow: hidden;
+	width: 25%;
+}
+.site-footer {
+	clear: both;
+	width: 100%;
 }
 
 /*--------------------------------------------------------------

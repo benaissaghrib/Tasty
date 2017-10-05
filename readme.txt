@@ -27,5 +27,5 @@ Tasty includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
 
-= 1.0 - September 19 2018 =
+= 1.0 - September 19 2017 =
 * Initial release
